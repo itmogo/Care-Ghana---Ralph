@@ -11391,7 +11391,7 @@ hr.divider-light {
 
 /*about*/
 header.masthead {
-  padding-top: 10rem;
+  padding-top: 1rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
@@ -11455,6 +11455,49 @@ header.masthead-contact h1, header.masthead-contact .h1 {
   }
 }
 /*contact end*/
+
+/*care section*/
+.pcenter{  
+  line-height: 35px;
+  letter-spacing:  1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;   
+}
+
+/* team card styles*/
+.bgcard{  
+  background-color: hsl(50, 33%, 25%);
+}
+
+.card-text{
+  color: white;
+}
+.fa-center{
+  text-align:center;
+        width:100%;
+}
+
+div .card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
